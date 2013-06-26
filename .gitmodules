@@ -1,0 +1,18 @@
+[submodule "vendor/markdown-mode"]
+	path = vendor/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
+[submodule "vendor/rinari"]
+	path = vendor/rinari
+	url = https://github.com/eschulte/rinari.git
+[submodule "vendor/rhtml"]
+	path = vendor/rhtml
+	url = https://github.com/eschulte/rhtml.git
+[submodule "vendor/coffee-mode"]
+	path = vendor/coffee-mode
+	url = https://github.com/defunkt/coffee-mode.git
+[submodule "vendor/yaml-mode"]
+	path = vendor/yaml-mode
+	url = https://github.com/yoshiki/yaml-mode.git
+[submodule "vendor/exec-path-from-shell"]
+	path = vendor/exec-path-from-shell
+	url = https://github.com/purcell/exec-path-from-shell.git
