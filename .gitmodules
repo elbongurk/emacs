@@ -16,3 +16,9 @@
 [submodule "vendor/exec-path-from-shell"]
 	path = vendor/exec-path-from-shell
 	url = https://github.com/purcell/exec-path-from-shell.git
+[submodule "vendor/scss-mode"]
+	path = vendor/scss-mode
+	url = https://github.com/antonj/scss-mode.git
+[submodule "vendor/magit"]
+	path = vendor/magit
+	url = https://github.com/magit/magit.git

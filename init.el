@@ -16,6 +16,11 @@
 ;;set tab width globally
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
+(setq js-indent-level 2)
+(setq css-indent-offset 2)
+
+;;disable Emacs version control
+(setq vc-handled-backends nil)
 
 ;;get the PATH variable right on Mac windowed Emacs
 (add-to-list 'load-path "~/.emacs.d/vendor/exec-path-from-shell")
@@ -23,11 +28,10 @@
   (require 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
 
-;;markdown
-(add-to-list 'load-path "~/.emacs.d/vendor/markdown-mode")
-(autoload 'markdown-mode "markdown-mode" 
-  "Major mode for editing Markdown files" t)
-(add-to-list 'auto-mode-alist '("\\.md" . markdown-mode))
+;;magit
+(add-to-list 'load-path "~/.emacs.d/vendor/magit")
+(require 'magit)
+
 
 ;;rinari
 (add-to-list 'load-path "~/.emacs.d/vendor/rinari")
@@ -59,6 +63,16 @@
   "Major mode for editing CoffeeScript files" t)
 (add-to-list 'auto-mode-alist '("\\.coffee" . coffee-mode))
 
-;;scss/less
-(add-to-list 'auto-mode-alist '("\\.scss" . css-mode))
-(add-to-list 'auto-mode-alist '("\\.less" . css-mode))
+;;scss
+(setq scss-compile-at-save nil)
+(add-to-list 'load-path "~/.emacs.d/vendor/scss-mode")
+(autoload 'scss-mode "scss-mode" 
+  "Major mode for editing SCSS files" t)
+(add-to-list 'auto-mode-alist '("\\.scss" . scss-mode))
+
+;;markdown
+(add-to-list 'load-path "~/.emacs.d/vendor/markdown-mode")
+(autoload 'markdown-mode "markdown-mode" 
+  "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.md" . markdown-mode))
+
