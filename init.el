@@ -32,6 +32,9 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/magit")
 (require 'magit)
 
+;;foreman
+(add-to-list 'load-path "~/.emacs.d/vendor/foreman.el")
+(require 'foreman)
 
 ;;rinari
 (add-to-list 'load-path "~/.emacs.d/vendor/rinari")

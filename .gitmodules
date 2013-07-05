@@ -22,3 +22,6 @@
 [submodule "vendor/magit"]
 	path = vendor/magit
 	url = https://github.com/magit/magit.git
+[submodule "vendor/foreman.el"]
+	path = vendor/foreman.el
+	url = https://github.com/waymondo/foreman.el.git
