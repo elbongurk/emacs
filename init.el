@@ -41,6 +41,10 @@
 (require 'rinari)
 (global-rinari-mode)
 
+;;bundler
+(add-to-list 'load-path "~/.emacs.d/vendor/bundler.el")
+(require 'bundler)
+
 ;;rhtml
 (add-to-list 'load-path "~/.emacs.d/vendor/rhtml")
 (autoload 'rhtml-mode "rhtml-mode" 

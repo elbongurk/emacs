@@ -25,3 +25,6 @@
 [submodule "vendor/foreman.el"]
 	path = vendor/foreman.el
 	url = https://github.com/waymondo/foreman.el.git
+[submodule "vendor/bundler.el"]
+	path = vendor/bundler.el
+	url = https://github.com/tobiassvn/bundler.el.git
