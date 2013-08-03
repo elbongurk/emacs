@@ -50,6 +50,7 @@
 (autoload 'rhtml-mode "rhtml-mode" 
   "Minor Mode for editing rhtml files" t)
 (add-to-list 'auto-mode-alist '("\\.html\\.erb" . rhtml-mode))
+(add-to-list 'auto-mode-alist '("\\.svg\\.erb" . rhtml-mode))
 
 ;;ruby
 (add-to-list 'auto-mode-alist '("Rakefile" . ruby-mode))
