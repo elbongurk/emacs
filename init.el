@@ -29,6 +29,7 @@
   (exec-path-from-shell-initialize))
 
 ;;magit
+(add-to-list 'load-path "~/.emacs.d/vendor/git-modes")
 (add-to-list 'load-path "~/.emacs.d/vendor/magit")
 (require 'magit)
 

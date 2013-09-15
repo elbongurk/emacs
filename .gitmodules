@@ -28,3 +28,6 @@
 [submodule "vendor/bundler.el"]
 	path = vendor/bundler.el
 	url = https://github.com/tobiassvn/bundler.el.git
+[submodule "vendor/git-modes"]
+	path = vendor/git-modes
+	url = https://github.com/magit/git-modes.git
