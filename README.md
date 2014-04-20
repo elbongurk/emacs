@@ -12,7 +12,7 @@ This is an Emacs setup for Ruby on Rails development. Includes modes synced to g
 
 ## Installation
 
-    git clone https://github.com/elbongurk/emacs.git ~/.emacs.d
+    git clone https://github.com/keegnotrub/emacs.git ~/.emacs.d
     cd ~/.emacs.d
     git submodule update --init --recursive
 
