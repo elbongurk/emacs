@@ -1,33 +1,6 @@
 [submodule "vendor/markdown-mode"]
 	path = vendor/markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
-[submodule "vendor/rinari"]
-	path = vendor/rinari
-	url = https://github.com/eschulte/rinari.git
-[submodule "vendor/rhtml"]
-	path = vendor/rhtml
-	url = https://github.com/eschulte/rhtml.git
-[submodule "vendor/coffee-mode"]
-	path = vendor/coffee-mode
-	url = https://github.com/defunkt/coffee-mode.git
-[submodule "vendor/yaml-mode"]
-	path = vendor/yaml-mode
-	url = https://github.com/yoshiki/yaml-mode.git
 [submodule "vendor/exec-path-from-shell"]
 	path = vendor/exec-path-from-shell
 	url = https://github.com/purcell/exec-path-from-shell.git
-[submodule "vendor/scss-mode"]
-	path = vendor/scss-mode
-	url = https://github.com/antonj/scss-mode.git
-[submodule "vendor/magit"]
-	path = vendor/magit
-	url = https://github.com/magit/magit.git
-[submodule "vendor/foreman.el"]
-	path = vendor/foreman.el
-	url = https://github.com/waymondo/foreman.el.git
-[submodule "vendor/bundler.el"]
-	path = vendor/bundler.el
-	url = https://github.com/tobiassvn/bundler.el.git
-[submodule "vendor/git-modes"]
-	path = vendor/git-modes
-	url = https://github.com/magit/git-modes.git
