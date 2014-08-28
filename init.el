@@ -24,6 +24,12 @@
   (require 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
 
+;git
+(add-to-list 'load-path "~/.emacs.d/vendor/git-modes")
+(require 'git-commit-mode)
+(require 'gitconfig-mode)
+(require 'gitignore-mode)
+
 ;;markdown
 (add-to-list 'load-path "~/.emacs.d/vendor/markdown-mode")
 (autoload 'markdown-mode "markdown-mode" 

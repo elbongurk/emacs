@@ -4,3 +4,6 @@
 [submodule "vendor/exec-path-from-shell"]
 	path = vendor/exec-path-from-shell
 	url = https://github.com/purcell/exec-path-from-shell.git
+[submodule "vendor/git-modes"]
+	path = vendor/git-modes
+	url = https://github.com/magit/git-modes.git
